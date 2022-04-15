@@ -1,18 +1,41 @@
-body{
-    text-align: center;
-    background-color: blanchedalmond;
+/*:root{
+  --color-botones:#FFB100;
+}*/
+body {
+  text-align: center;
+ font-weight:300;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFB100;
+  color: #FFEBC6;
+  font-size: 22px;
+
 }
 
-p{
-    font-size: 5rem;
+p {
+  font-size: 2rem;
 }
 
-button{
-    font-size: 3rem;
-    margin: 0 10px 0 10px;
+button {
+  font-size: 1rem;
+  margin: 0 10px 0 10px;
+  background-color: #FFB100;
+  color: #FFEBC6;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid  #FFEBC6;
+  transition: background 0.5s;
+
 }
 
+button:hover{
+  background: #FFEBC6;
+  color: #FFB100;
+  transition: background 0.5s;
 
-.green{
-    color: green;
+}
+button:active{
+  background: #005248;
+  box-shadow:0 0 0 0.3rem #ccc; 
+
+
 }
