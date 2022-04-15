@@ -1,0 +1,32 @@
+
+.contenedorPadre{
+  width: 22rem;
+  height: 30rem;
+  border: 1px solid #7C7C7C;
+  margin: 1.2rem;
+  /*overflow: hidden;
+  position: absolute;*/
+}
+.pantalla{
+
+  width: 20rem;
+  height: 3.75rem;
+  border: 1px solid #7C7C7C;
+  margin: 20px 20px;
+}
+button{
+  font-size:2rem;
+  margin: 1.2rem 1.2rem 0 1.2rem ;
+  position: relative;
+}
+.mas,.menos,.por,.division{
+width: 2em;
+margin:20px 10px;
+background: #dddddd;
+}
+.igual{
+  float: right;
+  width: 80px;
+  height: 250px;
+  position: relative;
+}
